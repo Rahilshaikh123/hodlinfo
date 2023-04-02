@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.head{
+    display:flex;
+    background-color: black;
+    align-items: start;
+    color: aqua;
+}
+.item1{
+    margin-left: 3rem;
+    margin-right: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: left;
+}
+.item2{
+    margin: 1.5% auto;
+    display: inline-flex;
+
+    padding: auto;
+    justify-content: center;
+    align-items: left;
+
+}
+.btn{
+    background-color: rgb(54, 52, 52);
+    color:white;
+    height: 2.3rem;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-family: Oswald,sans-serif;
+}
+#tel_btn{
+    background-color: cyan;
+    color:white;
+    height: 2.3rem;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-family: Oswald,sans-serif;
+}
+.table{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.tab-element{
+    font-size: 24px;
+    font-family: Oswald;
+    color: azure;
+    margin: auto;
+
+}
+.tab-element1{
+    font-size: 24px;
+    font-family: Oswald;
+    color: azure;
+    margin: auto;
+    background-color: rgb(46, 45, 45);
+
+
+}
+.table-row{
+    background-color: rgb(46, 45, 45);
+    border-radius: 15px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.mfooter{
+    display: flex;
+    padding-top: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    font-family: Oswald;
+    font-size: small;
+    color: rgb(180, 189, 197);
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    margin-left: 15px; 
+    margin-right: auto;
+}
+.leftfoot{
+    margin-left: auto;
+    margin-right: 15px;
+    font-family: Oswald;
+    
+    color:rgb(155, 166, 175);
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+    
